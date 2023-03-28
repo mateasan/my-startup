@@ -1,0 +1,45 @@
+body{
+    background-color: #b9acb1;
+      font-size: 16px;
+      font-family: 'American Typewriter', sans-serif;
+}
+
+
+.container{
+    width: 700px;
+    margin:40px auto;
+}
+
+.card-white{
+background-color: #FFFFFF;
+   padding: 50px;
+   box-shadow: 0px 10px 35px rgb(0 0 0 / 10%);
+   border-radius: 5px;
+   margin: 20px;
+   width: 700px;
+   display:flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+#header-div{
+    background-image: url(Ressources/banniere.jpg);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+}
+
+button{
+    padding: 10px;
+    background-color: #38023B;
+    border-radius:10px;
+    color:white;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #ca2e55  ;
+}
